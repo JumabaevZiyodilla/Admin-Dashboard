@@ -1,0 +1,30 @@
+.item {
+    padding-bottom: 24px;
+}
+
+.item:not(:nth-child(1)) {
+    padding-top: 10px;
+}
+
+.item:last-child {
+    padding-top: 10px;
+    padding-bottom: 0px;
+
+}
+
+.text-name {
+    padding-bottom: 6px;
+}
+
+ul {
+    border-left: 1px solid gray;
+}
+
+li {
+    border-top: 1px solid gray;
+}
+
+li:first-child {
+    border-top: none;
+
+}

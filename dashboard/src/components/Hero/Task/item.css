@@ -1,0 +1,82 @@
+.item-wrapper {
+    position: absolute;
+   /* left: 0; */
+   right: 200px;
+   
+}
+
+.item-one {
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 546px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+
+}
+
+.item-one:first-child {
+    margin-right: 30px;
+}
+
+h3, p {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.title-wrap {
+    padding-bottom: 16px;
+}
+
+.ticket {
+    padding-bottom: 8px;
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 19px;
+line-height: 24px;
+letter-spacing: 0.4px;
+color: #252733;
+
+}
+
+.textgray {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1px;
+color: #9FA2B4;
+}
+
+.wait {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.2px;
+color: #252733;
+}
+
+.number {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+text-align: right;
+letter-spacing: 0.2px;
+color: #9FA2B4;
+}
+
+.waiting-wrap {
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+
+.inputs {
+    border: none;
+    outline: none;
+}

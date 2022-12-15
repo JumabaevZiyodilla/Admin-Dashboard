@@ -1,6 +1,6 @@
-.card {
+.cards {
   position: relative;
-  left: 28%;
+  left: 22%;
   width: 100%;
   max-width: 1120px;
   padding-top: 36px;
@@ -90,4 +90,8 @@
   text-align: center;
   letter-spacing: 1px;
   color: #252733;
+}
+
+li {
+  border-top: none !important;
 }
