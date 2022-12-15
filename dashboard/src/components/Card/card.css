@@ -1,18 +1,93 @@
 .card {
-  padding: 36px 0px 30px 456px;
+  position: relative;
+  left: 28%;
+  width: 100%;
+  max-width: 1120px;
+  padding-top: 36px;
 }
 .card-box {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 58px;
 }
 .card-text {
+  margin: 0px auto 0px 0px;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: 0.3px;
   font-weight: 700;
   color: #252733;
 }
-.search-btn{
-    border: none;
-    background-color: transparent;
+.search-btn,
+.notification-btn {
+  margin-right: 24px;
+  border: none;
+  background-color: transparent;
+}
+.notification-btn {
+  margin-right: 32px;
+  padding-right: 32px;
+  border-right: 1px solid #dfe0eb;
+}
+.card-btn-box {
+  display: flex;
+  align-items: center;
+}
+.card-username {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  /* text-align: right; */
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+.card-username::after {
+  width: 44px;
+  height: 44px;
+  margin-left: 14px;
+  background-image: url('../../assets/images/jones.png');
+  content: '';
+}
+.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-item {
+  width: 258px;
+  padding: 24px 0px;
+  text-align: center;
+  border: 1px solid #dfe0eb;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.card-item:hover{
+    border-color: #3751FF;
+}
+.card-item:hover  .card-item-title,
+.card-item:hover  .card-item-number{
+    color: #3751FF;
+    transition: all 0.3s ease;
+}
+.card-item-title {
+  margin: 0px 0px 12px 0px;
+  font-size: 19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+  color: #9fa2b4;
+}
+.card-item-number {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #252733;
 }
