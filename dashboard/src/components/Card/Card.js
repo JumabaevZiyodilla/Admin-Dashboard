@@ -38,7 +38,7 @@ export const Card = () => {
       </div>
       <ul className="card-list">
           {cardInfo.map((element) => (
-            <li className="card-item">
+            <li key={element.id} className="card-item">
                 <p className="card-item-title">{element.name}</p>
                 <p className="card-item-number">{element.id}</p>
             </li>
