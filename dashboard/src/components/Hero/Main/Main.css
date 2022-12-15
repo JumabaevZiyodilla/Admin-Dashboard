@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 1120px;
+    padding: 32px;
+    margin: 30px auto;
+    margin-left: 370px;
+    background-color: #fff;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+
+   /* background-image: url("../../../assets/images/statiks.svg");
+   background-position: center;
+   background-size: contain;
+   width: 720px;
+   height: 406px;
+   margin-top: 300px; */
+}
+
+.text-wrap {
+    width: 780px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+p {
+    margin: 0;
+}
+
+
+.todays {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+
+.dates {
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.1px;
+color: #9FA2B4;
+
+}
+
+.days {
+    position: relative;
+}
+
+.parag {
+    font-family: 'Mulish';
+font-weight: 600;
+letter-spacing: 0.1px;
+color: #9FA2B4;
+}
+
+.parag:nth-child(1){
+    margin-right: 58px;
+}
+
+.parag::before {
+    content: "";
+    width: 15px;
+    height: 2px;
+    background-color: #252733;
+    position: absolute;
+    top: 12px;
+    margin-left: -30px;
+}
+
+.parag:nth-child(1):before {
+    content: "";
+    background-color: #1836df;
+}
+
+.lists {
+    width: 342px;
+}

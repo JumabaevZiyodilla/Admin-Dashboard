@@ -23,7 +23,7 @@ export const Card = () => {
     },
   ]
   return (
-    <section className="card">
+    <section className="cards">
       <div className="card-box">
         <p className="card-text">Overview</p>
         <div className="card-btn-box">
